@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: space-around;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+.container {
+  background-color: white;
+  margin: 5% 0% 0% 10%;
+  padding: 0;
+  height: 80%;
+  width: 40%;
+  /*   border: 1px solid white; */
+  overflow: hidden;
+}
+.navbar {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  border-radius: 10px;
+  width: 5%;
+  height: 80%;
+  top: 10%;
+  left: 2%;
+  background-color: white;
+  text-align: center;
+  list-style-type: none;
+}
+.nav_icons {
+  height: 50%;
+  width: 50%;
+}
+.nav_icons:hover {
+  height: 60%;
+  width: 60%;
+  transition: 0.1s;
+}
+.active {
+  height: 70%;
+  width: 70%;
+}
+form {
+  margin: 10% 20%;
+  text-align: center;
+}
+input {
+  width: 100%;
+  margin: 5% 0%;
+}
+.name,
+.email {
+  height: 2rem;
+  text-align: center;
+}
+.message {
+  height: 6rem;
+  padding: 0;
+  margin: 0;
+}
+::placeholder {
+  text-align: center;
+}
+.submit {
+  font-size: 1rem;
+  border: 0px;
+  margin: 5% 0%;
+  height: 3rem;
+  width: 70%;
+  background-color: #28b487;
+  color: white;
+}
